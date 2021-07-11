@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Google Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #141517;
+    font-size: 18px;
+    min-width: 400px;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+/*----------------------HEADER------------------------*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+header img {
+    height: 5rem;
+}
+
+header h2 {
+    color: #5f6368;
+    font-size: 2.5rem;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+/*--------------------WHERE NOTES WILL APPEAR-------------------------*/
+
+#notes {
+    display: flex;
+    justify-content: center;
+}
+
+
+#notesArea {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#notesAreaLogo {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjMDAwIj4KICA8cGF0aCBkPSJNOSAyMWMwIC41NS40NSAxIDEgMWg0Yy41NSAwIDEtLjQ1IDEtMXYtMUg5djF6bTMtMTlDOC4xNCAyIDUgNS4xNCA1IDljMCAyLjM4IDEuMTkgNC40NyAzIDUuNzRWMTdjMCAuNTUuNDUgMSAxIDFoNmMuNTUgMCAxLS40NSAxLTF2LTIuMjZjMS44MS0xLjI3IDMtMy4zNiAzLTUuNzQgMC0zLjg2LTMuMTQtNy03LTd6bTIuODUgMTEuMWwtLjg1LjZWMTZoLTR2LTIuM2wtLjg1LS42QTQuOTk3IDQuOTk3IDAgMCAxIDcgOWMwLTIuNzYgMi4yNC01IDUtNXM1IDIuMjQgNSA1YzAgMS42My0uOCAzLjE2LTIuMTUgNC4xeiIvPgo8L3N2Zz4K);
+    background-size: 120px 120px;
+    height: 120px;
+    margin: 20px;
+    opacity: .1;
+    width: 120px;
+}
+
+#notesAreaMsg {
+    color: #80868b;
+    cursor: default;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+#noteBody {
+    width: calc(100% - 8px);
+    min-height: 43px;
+    margin: 0 5px;
+    padding: 8px 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    border: 0;
+}
+
+#noteTitle {
+    width: calc(100% - 8px);
+    min-height: 43px;
+    margin: 0 5px;
+    padding: 8px 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    border: 0;
+}
+
+
+
+#typeNewNote {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    margin: 32px auto 16px auto;
+    max-width: 490px;
+    box-sizing: border-box;
+}
+
+#buttons {
+    text-align: right;
+}
+
+#submitBtn,
+#closeBtn {
+    margin: 0.2em 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    height: 36px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgb(251, 251, 251);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
